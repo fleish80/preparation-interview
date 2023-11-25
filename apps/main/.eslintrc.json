@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "preparationInterview",
+            "prefix": "df",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "preparation-interview",
+            "prefix": "df",
             "style": "kebab-case"
           }
         ]
