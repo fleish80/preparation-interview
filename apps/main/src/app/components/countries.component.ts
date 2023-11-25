@@ -33,11 +33,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 })
 export default class CountriesComponent {
 
-  constructor() {
-    console.log('herer');
-  }
-
-
   #countriesStoreService = inject(CountriesStoreService);
   countries = this.#countriesStoreService.countries;
   #countriesControlsService = inject(CountriesControlsService);
