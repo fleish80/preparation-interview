@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 
   <mat-toolbar color="primary">
     <a routerLink="countries" routerLinkActive="active" mat-flat-button color="primary">Countries</a>
+    <a routerLink="messages" routerLinkActive="active" mat-flat-button color="primary">Messages</a>
   </mat-toolbar>
     <router-outlet/>
   `
